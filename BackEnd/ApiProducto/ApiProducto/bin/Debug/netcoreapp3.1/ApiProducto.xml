@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiProducto</name>
+    </assembly>
+    <members>
+        <member name="M:ApiProducto.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Obtener todas las categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.CategoriasController.GetCategoria(System.Int32)">
+             <summary>
+            Obtener una categoria individual por ID
+             </summary>
+             <param name="categoriaId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.CategoriasController.CrearCategoria(ApiProducto.Models.DTO.CategoriaDTO)">
+            <summary>
+            Crear una nueva Categoria
+            </summary>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.CategoriasController.ActualizarCategoria(System.Int32,ApiProducto.Models.DTO.CategoriaDTO)">
+            <summary>
+            Actualizar una categoria existente
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.CategoriasController.BorrarCategoria(System.Int32)">
+            <summary>
+            Borrar una categoria existente
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.GetProductos">
+            <summary>
+            Obtener todos los productos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.GetProducto(System.Int32)">
+             <summary>
+            Obtener un producto individual por ID
+             </summary>
+             <param name="productoId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.GetProductosEnCategoria(System.Int32)">
+             <summary>
+            Obtener todos los productos de una categoria
+             </summary>
+             <param name="categoriaId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.Buscar(System.String)">
+             <summary>
+            Obtener un producto en especifico por nombre
+             </summary>
+             <param name="nombre"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.CrearProducto(ApiProducto.Models.DTO.ProductoDTOCreate)">
+            <summary>
+            Crear un nuevo producto
+            </summary>
+            <param name="productoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.ActualizarProducto(System.Int32,ApiProducto.Models.DTO.ProductoDTO)">
+            <summary>
+            Actualizar un producto existente
+            </summary>
+            <param name="productoId"></param>
+            <param name="productoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProducto.Controllers.ProductosController.BorrarProducto(System.Int32)">
+            <summary>
+            Borrar un producto existente
+            </summary>
+            <param name="productoId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
